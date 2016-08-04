@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="BookMovies" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seat1" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="seat2" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="seat3" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="seat4" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="seat5" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="seat6" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="seat7" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="seat8" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="seat9" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="seat10" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Movies" syncable="YES">
+        <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" syncable="YES">
+        <attribute name="contact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BookMovies" positionX="-63" positionY="18" width="128" height="225"/>
+        <element name="Movies" positionX="-63" positionY="0" width="128" height="105"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>
